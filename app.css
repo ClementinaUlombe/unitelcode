@@ -1,21 +1,24 @@
-.carousel{
-    margin-bottom: 100ps;
-
-}
-
-.cursos{
-    width: 100%;
-    display: flex;
-    justify-content: center;
-}
-.card{
-    margin: 0 10px;
-}
-.footer{
-    background-color: black;
-    color: white;
-}
-
-.fob{
-    color: white;
+.carousel{ 
+    margin-bottom: 100px; 
+} 
+ 
+ 
+ 
+.cursos{ 
+    width: 100%; 
+    display: flex; 
+    justify-content: center; 
+} 
+ 
+.card{ 
+    margin: 0 10px; 
+} 
+ 
+.footer{ 
+    background-color: black; 
+    color: white; 
+} 
+ 
+.fab{ 
+    color: white; 
 }
