@@ -1,0 +1,151 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+   
+}
+
+.separar-palavras{
+    word-spacing: 100px; /* Ajuste o valor conforme necessário */
+    text-align: center;
+
+}
+
+
+.Cabeçalho{list-style: none;
+    padding: 0;
+    top: 0; /* Define o topo como 0 para colocar o elemento no topo */
+} 
+    
+.Cabeçalho li {
+    display: inline-block;
+    margin-right: 10px; /* Espaçamento entre os itens */
+}
+.Cabeçalho a {
+    text-decoration: none;
+    color: #654fa5; /* Cor do texto */
+    padding: 5px 10px; /* Espaçamento interno dos links */
+    border: 1px orangered; /* Borda dos links */
+    border-radius: 5px; /* Arredondamento das bordas */
+}
+
+.Cabeçalho a:hover {
+    background-color:orange; /* Cor de fundo dos links ao passar o mouse */
+}
+.logo{  
+
+    top: 500px;
+    height: auto;
+    width: 300px;
+    height: 200px;
+    z-index: 1;
+    right: 0px;
+}
+
+.menu{
+    display: flex;
+    align-items: center;
+    font-size: 15px;
+    text-transform: capitalize;
+}
+
+li{
+    list-style: none;
+    padding: 0 20px;
+}
+.menu a {
+    color: #654fa5;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+.container button {
+    background-color: white;
+    border: none;
+    color: orange;
+    padding: 10px 30px;
+    border-radius: 30px;
+    border: 1px solid orange;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: orange;
+    color: white;
+}
+
+.fundo-img img {
+    width: 50%; /* Ajuste a largura conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+}
+.fundo-info{
+    border: 2px solid #0074D9; 
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+ 
+ 
+.cadastrar{
+    background-color: #8064d4;
+    padding: 10px 30px;
+    color: white;
+    border-radius: 30px;
+    margin-bottom: 15px;
+}
+
+.saber{
+    color: #654fa5;
+    background-color: white;
+    padding: 10px 30px;
+    border: 1px solid #654fa5;
+    border-radius: 30px;
+}
+
+.info-unitel{
+    display: flex;
+    flex-direction: column;
+}
+
+footer {
+    background-color: #503d87;
+    color: hsl(29, 79%, 47%);
+        width: 1490px; /* Defina a largura desejada */
+        height: 370px;
+
+}
+.Planos img {
+    width: 17%; /* Define a largura desejada, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px;
+}
+.botao {
+    top: 500%;
+    border: none; /* Remover a borda do botão (opcional) */
+    cursor: pointer;
+   
+}
+
+.container a {
+    color: #c76408;
+
+}
+.container{
+    flex-direction: column; /* Para criar uma coluna vertical de links */
+    align-items: center; /
+    
+}
+.money img{    width: 30%; /* Define a largura desejada, ajuste conforme necessário */
+
+
+}
+
+.disp img{
+    width: 17%; /* Define a largura desejada, ajuste conforme necessário */
+    height: auto; /* Mantém a proporção da imagem */
+    margin: 10px;
+
+}
